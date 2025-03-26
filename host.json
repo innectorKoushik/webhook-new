@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true
+      },
+      "enableLiveMetrics": true
+    },
+    "logLevel": {
+      "default": "Information",
+      "Function.AnsweredOutboundCalls": "Information",
+      "Function.AnsweredInboundCalls": "Information",
+      "Function.MissedOutboundCalls": "Information",
+      "Function.MissedInboundCalls": "Information",
+      "Host.Results": "Warning"
+    }
+  },
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[4.*, 5.0.0)"
+  }
+}
